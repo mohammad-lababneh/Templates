@@ -1,0 +1,138 @@
+header{
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+  
+   
+}
+.w3container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:1200px;
+    margin:auto;
+}
+ .w3-top{
+    height: 75px;
+    width: 100%;
+    font-family: "Karma", sans-serif;
+    background-color: white;
+    font-size: 30px;
+    /* margin-bottom: 10px; */
+
+    
+} 
+.navDivs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+   
+}
+
+
+#mySidebar{
+    display:none;
+    width:40%;
+    height: 100%;
+    /* width: 0; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* z-index:2; */
+    min-width:300px;
+}
+#navContant{
+    position: relative;
+    top:10px;
+    width: 100%;
+    /* text-align: center; */
+   /* margin-left:0px; */
+}
+#navContant a{
+  display: block;
+  color: black;
+text-decoration: none; 
+font-size: 30px; 
+padding: 20px ;
+
+
+}
+
+
+
+
+
+
+.imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .imgContainer  div{
+  
+  margin-left: auto;
+   margin-right: auto;
+   margin-top: 60px;
+  padding: 10px 10px;
+   /* -webkit-background-clip: text;  */
+   width: 21%;
+  }
+.imgContainer div h4 ,  p {
+    text-align: center;
+    padding: 5px;
+}
+.imgContainer div img {
+    width: 100%;
+}
+
+.Pagination {
+    text-align: center;
+    margin: 20px 10px;
+    
+}
+.Pagination a {
+    margin: 20px 10px;
+    text-decoration: none;
+    
+}
+#about{
+    margin: 50px 0 ;
+}
+h2 , h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#lastImg{
+    padding: 20px 20%;
+}
+
+#footerFirstDiv
+{
+    max-width:30%;
+}
+#footerlastDiv{
+   max-width: 30%;
+  
+}
+
+
+#footerDiv{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+  }
+  
+  #footerDiv > div{
+  
+  margin-left: auto;
+   margin-right: auto;
+  padding: 10px;
+   /* -webkit-background-clip: text;  */
+  }
+  
