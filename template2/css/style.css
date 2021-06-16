@@ -1,7 +1,7 @@
 body{
     background-color: #f1f1f1;
     font-family: "Roboto", sans-serif;
-    
+    overflow-x: hidden;
     
 }
 
@@ -104,20 +104,20 @@ p{color: #757575;
     text-align: center;
 }
 footer{
-    padding: 0.01em 16px;
+    width: 100%;
+    padding: 10px 10px;
     color: white;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     right: 0;
     left: 0;
     background-color: #009688;
     text-align: center;
     margin-top: 15px;
+    overflow-x: hidden;
 
 }
-footer b {
+footer p , i{
     color: white;
-}
-.footerDiv{
-    display: inline-block;
+   
 }
