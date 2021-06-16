@@ -1,0 +1,117 @@
+body{
+    background-color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+
+h2 , b{
+    color: #757575;
+}
+ i {margin-right: 16px;
+    color: #009688;
+   
+}
+h6 {
+  font-size: 16px;
+}
+h6 span{
+    display: inline-block;
+    color: white;
+    background-color: #009688;
+    width: 50px;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    text-align: center;
+}
+h6{
+    color: #009688;
+}
+.workdiv{
+
+    width: 60%;
+    float: right;
+    background-color: white;
+    margin: 15px 15px  ;
+    padding: 30px 30px;
+}
+.workdiv h2{
+    font-size: 30px;
+}
+.imgDiv{
+    width: 300px;
+}
+.educationDiv{
+    width: 60%;
+    float: right;
+    background-color: white;
+    margin: 0 15px 100px;
+    padding: 30px 30px;
+
+}
+
+.liftDiv{
+    padding: 0.01em 16px;
+width: 25%;
+background-color: white;
+margin: 15px 15px  ;
+padding: 30px 30px;
+font-size: 15px;
+line-height: 1.5;
+}
+.liftDiv i{
+font-size: 18px;
+}
+
+#firstLift p{
+    color: #757575;
+ margin-bottom: 12px;
+    }
+
+
+
+.skills {
+font-size: 20px;
+}
+#secondLift p{
+    margin: 0 0 4px;
+}
+h5 b {
+    font-size: 20px;
+}
+p{color: #757575;
+    line-height: 1.5;}
+
+#languageFirstDiv{
+    background-color: #f1f1f1; 
+       border-radius: 16px;
+}
+#languageSecondDiv{
+    height:24px;
+    width:25% ; 
+    color: #fff;
+    background-color: #009688;
+    border-radius: 16px;
+    text-align: center;
+}
+footer{
+    padding: 0.01em 16px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #009688;
+    text-align: center;
+    margin-top: 15px;
+
+}
+footer b {
+    color: white;
+}
+.footerDiv{
+    display: inline-block;
+}
